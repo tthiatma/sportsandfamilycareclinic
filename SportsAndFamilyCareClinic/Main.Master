@@ -1,0 +1,233 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="SportsAndFamilyCareClinic.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8"/>
+
+    <!-- Title -->
+    <title>SportsAndFamilyCareClinic | <asp:ContentPlaceHolder ID="PageTitle" runat="server"></asp:ContentPlaceHolder></title>
+
+    <!-- Define a view port to mobile devices to use - telling the browser to assume that
+    the page is as wide as the device (width=device-width)
+     and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon-new.png"/>
+
+    <!-- Google Web Font -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,500,600,700,800,900,300,200" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+
+    <!-- bootstrap Style Sheet (caution ! - Do not edit this stylesheet) -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all"/>
+    <!-- Flexslider stylesheet -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all"/>
+    <!-- Animations stylesheet -->
+    <link rel="stylesheet" href="css/animations.css" type="text/css" media="all"/>
+    <!-- Awesome Font stylesheet -->
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all"/>
+    <!-- Datepciker stylesheet -->
+    <link rel="stylesheet" href="css/datepicker.css" type="text/css" media="all"/>
+    <!-- Swipebox stylesheet -->
+    <link rel="stylesheet" href="css/swipebox.css" type="text/css" media="all"/>
+    <!-- meanmenu stylesheet -->
+    <link rel="stylesheet" href="css/meanmenu.css" type="text/css" media="all"/>
+    <!-- Include the site main stylesheet -->
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="all"/>
+    <!-- Include the site responsive  stylesheet -->
+    <link rel="stylesheet" href="css/custom-responsive.css" type="text/css" media="all"/>
+
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <div class="header-top clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 ">
+                    <p>Welcome to Sports And Family Care Clinic.</p>
+                </div>
+                <!--opening hours-->
+                <div class="col-md-7 text-right">
+                    <p>
+                        <br class="visible-xs"/>Contact : <span>	480-704-6133</span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header id="header">
+    <div class="container">
+
+        <!-- Website Logo -->
+        <div class="logo clearfix">
+            <a href="default.aspx">
+                <img src="/images/logo.jpg" alt="SportsAndFamilyCareClinic"/>
+            </a>
+        </div>
+
+        <!-- Main Navigation -->
+        <nav class="main-menu">
+            <ul class="header-nav clearfix" id="menu-main-menu">
+                <li id="PageHome">
+                    <a href="default.aspx">Home</a>
+                </li>
+                <li id="PageStaffs">
+                    <a href="staffs.aspx">Staffs</a>
+                </li>
+                <li id="PageServices">
+                    <a href="services.aspx">Services</a>
+                </li>
+                <li id="PageGallery">
+                    <a href="gallery.aspx">Gallery</a>
+                </li>
+                <li id="PageAppointment">
+                    <a target="_blank" href="http://sfcc.hourmine.com">Appointment</a>
+                </li>
+                <li id="PageContact">
+                    <a href="contact.aspx">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="responsive-menu-container"></div>
+    </div>
+</header>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+    <!--page footer-->
+    <footer id="main-footer" class="site-footer clearfix">
+        <div class="container">
+            <div class="row">
+
+
+                <!--about widget-->
+                <div class="col-md-4 col-sm-6">
+                    <section  class="widget animated fadeInLeft ae-animation-fadeInLeft">
+                        <h3 class="title">Our Mission</h3>
+                        <div class="textwidget">
+                            <p>The staff of Sports and Family Care Clinic is dedicated to providing the best chiropractic treatment possible in a professional, courteous and fun environment. We realize the that you have many choices when it comes to chiropractic care and we strive to set ourselves apart from the competition by treating each patient with the utmost care and respect. 
+                            If, for any reason, you feel that we are not living up to our mission please let me know. </p>
+
+                            <p>-Dr A.</p>
+                        </div>
+                    </section>
+                </div>
+
+
+                <!--general services-->
+                <div class="col-md-4 col-sm-6">
+                    <section class="widget animated fadeInLeft ae-animation-fadeInLeft">
+                        <h3 class="title">General Services</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Sports Injuries</a>
+                            </li>
+                            <li>
+                                <a href="#">Headache and Migraines</a>
+                            </li>
+                            <li>
+                                <a href="#">Back Pain and Sciatic Pain</a>
+                            </li>
+                            <li>
+                                <a href="#">Leg and Hip Pain</a>
+                            </li>
+                            <li>
+                                <a href="#">Neck Stiffness</a>
+                            </li>
+                            <li>
+                                <a href="#">Numbness in Arms and Hands</a>
+                            </li>
+                            <li>
+                                <a href="#">Muscle Tension and Stress</a>
+                            </li>
+                            <li>
+                                <a href="#">Car Accident and Work Related Injuries</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div class="clearfix visible-sm"></div>
+
+                <!--recent posts-->
+                <div class="col-md-4 col-sm-12">
+                    <section  class="widget animated fadeInLeft ae-animation-fadeInLeft">
+                        <h3 class="title">Recent Posts</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Hello world!</a>
+                            </li>
+                            <li>
+                                <a href="#">Image Post Format</a>
+                            </li>
+                            <li>
+                                <a href="#">Quote Post Format</a>
+                            </li>
+                            <li>
+                                <a href="#">Gallery Post Format</a>
+                            </li>
+                            <li>
+                                <a href="#">How to Live a Healthier Life</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="footer-bottom animated fadeInDown clearfix">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p>&copy; Copyright 2016. All Rights Reserved by Sports And Family Care Clinic</p>
+                    </div>
+                    <!--footer social icons-->
+                    <div class="col-sm-5 clearfix">
+                        <ul class="footer-social-nav">
+                            <li><a target="_blank" href="https://www.facebook.com/Sports-and-Family-Care-Clinic-152778808097092"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/channel/UCdxxa95fq4Kk6xMeIDZyfvw"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" id="scroll-top"></a>
+
+    <script type='text/javascript' id='quick-js'></script>
+    <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+    <script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
+    <script type='text/javascript' src='js/jquery.swipebox.min.js'></script>
+    <script type='text/javascript' src='js/jquery.isotope.min.js'></script>
+    <script type='text/javascript' src='js/jquery.appear.js'></script>
+    <script type='text/javascript' src='js/jquery.ui.core.min.js'></script>
+    <script type='text/javascript' src='js/jquery.ui.datepicker.min.js'></script>
+    <script type='text/javascript' src='js/jquery.validate.min.js'></script>
+    <script type='text/javascript' src='js/jquery.form.js'></script>
+    <script type='text/javascript' src='js/jquery.autosize.min.js'></script>
+    <script type='text/javascript' src='js/jquery.meanmenu.min.js'></script>
+    <script type='text/javascript' src='js/jquery.velocity.min.js'></script>
+    <script type='text/javascript' src='js/respond.min.js'></script>
+    <script type='text/javascript' src='js/jquery-migrate-1.2.1.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+    <asp:ContentPlaceHolder ID="CustomScript" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>

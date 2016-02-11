@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F5331A4-4843-4FE0-9B9A-2072272B7B7C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SportsAndFamilyCareClinic</RootNamespace>
+    <AssemblyName>SportsAndFamilyCareClinic</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contact.aspx" />
+    <Content Include="css\animations.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\custom-responsive.css" />
+    <Content Include="css\datepicker.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\meanmenu.css" />
+    <Content Include="css\swipebox.css" />
+    <Content Include="fonts\flexslider-icon.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Gallery.aspx" />
+    <Content Include="images\accordin-close.png" />
+    <Content Include="images\accordin-open.png" />
+    <Content Include="images\active-slide-arrow.png" />
+    <Content Include="images\active-slide-arrow2.png" />
+    <Content Include="images\alert-close.png" />
+    <Content Include="images\appoint-arrow.png" />
+    <Content Include="images\appoint-form-bg.png" />
+    <Content Include="images\appoint-form-bottom.png" />
+    <Content Include="images\appoint-form-dropdown.jpg" />
+    <Content Include="images\appoint-form-top.png" />
+    <Content Include="images\appointment-bg.png" />
+    <Content Include="images\arrow-list-one-bg.png" />
+    <Content Include="images\arrow-list-three-bg.png" />
+    <Content Include="images\arrow-list-two-bg.png" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\banners\banner1.png" />
+    <Content Include="images\banners\banner2.png" />
+    <Content Include="images\banners\banner3.png" />
+    <Content Include="images\bg_play_pause.png" />
+    <Content Include="images\blockquote-img.png" />
+    <Content Include="images\breadcrumbs-divider.png" />
+    <Content Include="images\carousel-next.png" />
+    <Content Include="images\carousel-prev.png" />
+    <Content Include="images\close-btn.png" />
+    <Content Include="images\comment-border.png" />
+    <Content Include="images\comment-border2.png" />
+    <Content Include="images\comment-count-icon.png" />
+    <Content Include="images\datepicker-img.png" />
+    <Content Include="images\doctors-icon.png" />
+    <Content Include="images\double-quotes.png" />
+    <Content Include="images\faq-close.png" />
+    <Content Include="images\faq-icon.png" />
+    <Content Include="images\faq-open.png" />
+    <Content Include="images\favicon-new.png" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\feature-border.png" />
+    <Content Include="images\for-expand-mirror-bottom.png" />
+    <Content Include="images\for-expand-mirror-top.png" />
+    <Content Include="images\for-expand-mirror.png" />
+    <Content Include="images\gallery-icon.png" />
+    <Content Include="images\header-social-icon-plus-hover.png" />
+    <Content Include="images\header-social-icon-plus.png" />
+    <Content Include="images\hide-icon.png" />
+    <Content Include="images\icon-res-menu.png" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\icons.svg" />
+    <Content Include="images\jplayer\jp-bg.png" />
+    <Content Include="images\jplayer\mute.png" />
+    <Content Include="images\jplayer\mute_hover.png" />
+    <Content Include="images\jplayer\pause.png" />
+    <Content Include="images\jplayer\pause_hover.png" />
+    <Content Include="images\jplayer\play.png" />
+    <Content Include="images\jplayer\play_hover.png" />
+    <Content Include="images\jplayer\seek-bar-bg.png" />
+    <Content Include="images\jplayer\volume-bar-bg.png" />
+    <Content Include="images\jplayer\volume.png" />
+    <Content Include="images\jplayer\volume_hover.png" />
+    <Content Include="images\link-format-bg.png" />
+    <Content Include="images\link-format-icon.png" />
+    <Content Include="images\linkdin-icon.png" />
+    <Content Include="images\list-arrow-style.png" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\loader2.gif" />
+    <Content Include="images\loader3.gif" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\next-icon-two-sprite.png" />
+    <Content Include="images\next-icon-two.png" />
+    <Content Include="images\next-icon-two_hover.png" />
+    <Content Include="images\next-icon.png" />
+    <Content Include="images\open-btn.png" />
+    <Content Include="images\open_hours_bg.png" />
+    <Content Include="images\plus-icon.png" />
+    <Content Include="images\plus-red.png" />
+    <Content Include="images\plus-red2.png" />
+    <Content Include="images\prev-icon-two-hover.png" />
+    <Content Include="images\prev-icon-two-sprite.png" />
+    <Content Include="images\prev-icon-two.png" />
+    <Content Include="images\prev-icon.png" />
+    <Content Include="images\pricing-left-curve-2.png" />
+    <Content Include="images\pricing-left-curve.png" />
+    <Content Include="images\pricing-left-curve2.png" />
+    <Content Include="images\pricing-right-curve-2.png" />
+    <Content Include="images\pricing-right-curve.png" />
+    <Content Include="images\pricing-right-curve2.png" />
+    <Content Include="images\scroll-top.png" />
+    <Content Include="images\search-submit.png" />
+    <Content Include="images\search-submit2.png" />
+    <Content Include="images\select-box-icon.png" />
+    <Content Include="images\services-icon.png" />
+    <Content Include="images\show-icon.png" />
+    <Content Include="images\slider-left-arrow.png" />
+    <Content Include="images\slider-loader.gif" />
+    <Content Include="images\slider-right-arrow.png" />
+    <Content Include="images\staffs\Dr. Michael Akerson.jpg" />
+    <Content Include="images\staffs\Kamalapati_Khalsa%28KK%29.png" />
+    <Content Include="images\staffs\lindsey.png" />
+    <Content Include="images\staffs\Michael_Akerson.png" />
+    <Content Include="images\staffs\Kamalapati Khalsa %28KK%29.jpg" />
+    <Content Include="images\staffs\lindsey.jpg" />
+    <Content Include="images\staffs\ryan.jpg" />
+    <Content Include="images\staffs\ryan.png" />
+    <Content Include="images\swipe-loader.gif" />
+    <Content Include="images\tab-nav-hover-right.png" />
+    <Content Include="images\tab-nav-hover.png" />
+    <Content Include="images\tab-nav-left.png" />
+    <Content Include="images\tab-nav.png" />
+    <Content Include="images\temp-images\1st-big-feature.png" />
+    <Content Include="images\temp-images\1st.png" />
+    <Content Include="images\temp-images\2nd-big-feature.png" />
+    <Content Include="images\temp-images\2nd.png" />
+    <Content Include="images\temp-images\3rd-big-feature.png" />
+    <Content Include="images\temp-images\3rd.png" />
+    <Content Include="images\temp-images\4th.png" />
+    <Content Include="images\temp-images\5th.png" />
+    <Content Include="images\temp-images\6th.png" />
+    <Content Include="images\temp-images\author-11-130x130.jpg" />
+    <Content Include="images\temp-images\author-22-130x130.jpg" />
+    <Content Include="images\temp-images\banner.jpg" />
+    <Content Include="images\temp-images\doctor-1.jpg" />
+    <Content Include="images\temp-images\doctor-2.jpg" />
+    <Content Include="images\temp-images\doctor-3.jpg" />
+    <Content Include="images\temp-images\doctor-4.jpg" />
+    <Content Include="images\temp-images\doctor-5.jpg" />
+    <Content Include="images\temp-images\doctor-6.jpg" />
+    <Content Include="images\temp-images\gallery-1-150x150.jpg" />
+    <Content Include="images\temp-images\gallery-1.jpg" />
+    <Content Include="images\temp-images\gallery-11-111x69.jpg" />
+    <Content Include="images\temp-images\gallery-11-670x500.jpg" />
+    <Content Include="images\temp-images\gallery-11.jpg" />
+    <Content Include="images\temp-images\gallery-2.jpg" />
+    <Content Include="images\temp-images\gallery-3.jpg" />
+    <Content Include="images\temp-images\gallery-31-111x69.jpg" />
+    <Content Include="images\temp-images\gallery-31-670x500.jpg" />
+    <Content Include="images\temp-images\gallery-31.jpg" />
+    <Content Include="images\temp-images\gallery-4.jpg" />
+    <Content Include="images\temp-images\gallery-41-111x69.jpg" />
+    <Content Include="images\temp-images\gallery-41-670x500.jpg" />
+    <Content Include="images\temp-images\gallery-41.jpg" />
+    <Content Include="images\temp-images\gallery-5-111x69.jpg" />
+    <Content Include="images\temp-images\gallery-5-670x500.jpg" />
+    <Content Include="images\temp-images\gallery-5.jpg" />
+    <Content Include="images\temp-images\gallery-6-111x69.jpg" />
+    <Content Include="images\temp-images\gallery-6-670x500.jpg" />
+    <Content Include="images\temp-images\gallery-6.jpg" />
+    <Content Include="images\temp-images\gallery-7-111x69.jpg" />
+    <Content Include="images\temp-images\gallery-7-670x500.jpg" />
+    <Content Include="images\temp-images\gallery-7.jpg" />
+    <Content Include="images\temp-images\logo-two.png" />
+    <Content Include="images\temp-images\news-1-150x150.jpg" />
+    <Content Include="images\temp-images\news-2-150x150.jpg" />
+    <Content Include="images\temp-images\news-2-732x447.jpg" />
+    <Content Include="images\temp-images\news-2.jpg" />
+    <Content Include="images\temp-images\person-2-2.jpeg" />
+    <Content Include="images\temp-images\person1-1.jpeg" />
+    <Content Include="images\temp-images\person1.jpeg" />
+    <Content Include="images\temp-images\person2.jpeg" />
+    <Content Include="images\temp-images\person3-3.jpeg" />
+    <Content Include="images\temp-images\person3.jpeg" />
+    <Content Include="images\temp-images\service-1-670x500.jpg" />
+    <Content Include="images\temp-images\service-1.jpg" />
+    <Content Include="images\temp-images\service-2-570x250.jpg" />
+    <Content Include="images\temp-images\service-2-670x500.jpg" />
+    <Content Include="images\temp-images\service-2.jpg" />
+    <Content Include="images\temp-images\service-3-570x250.jpg" />
+    <Content Include="images\temp-images\service-3-670x500.jpg" />
+    <Content Include="images\temp-images\service-3.jpg" />
+    <Content Include="images\temp-images\service-4-570x250.jpg" />
+    <Content Include="images\temp-images\service-4-670x500.jpg" />
+    <Content Include="images\temp-images\service-4.jpg" />
+    <Content Include="images\temp-images\service-5-570x250.jpg" />
+    <Content Include="images\temp-images\service-5-670x500.jpg" />
+    <Content Include="images\temp-images\service-5.jpg" />
+    <Content Include="images\temp-images\slide-one.jpg" />
+    <Content Include="images\temp-images\slide-three.jpg" />
+    <Content Include="images\temp-images\slide-two.jpg" />
+    <Content Include="images\testimonials-icon.png" />
+    <Content Include="images\time-table-arrow.png" />
+    <Content Include="images\white-loader.gif" />
+    <Content Include="js\admin.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\Jplayer.swf" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-migrate-1.2.1.min.js" />
+    <Content Include="js\jquery.appear.js" />
+    <Content Include="js\jquery.autosize.min.js" />
+    <Content Include="js\jquery.flexslider-min.js" />
+    <Content Include="js\jquery.form.js" />
+    <Content Include="js\jquery.isotope.min.js" />
+    <Content Include="js\jquery.meanmenu.min.js" />
+    <Content Include="js\jquery.swipebox.min.js" />
+    <Content Include="js\jquery.ui.core.min.js" />
+    <Content Include="js\jquery.ui.datepicker.min.js" />
+    <Content Include="js\jquery.validate.min.js" />
+    <Content Include="js\jquery.velocity.min.js" />
+    <Content Include="js\min\custom.min.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="Main.Master" />
+    <Content Include="fonts\flexslider-icon.eot" />
+    <Content Include="fonts\flexslider-icon.ttf" />
+    <Content Include="fonts\flexslider-icon.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Properties\PublishProfiles\localdeploy.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Services.aspx" />
+    <Content Include="Staffs.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staffs.aspx.cs">
+      <DependentUpon>Staffs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staffs.aspx.designer.cs">
+      <DependentUpon>Staffs.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65248</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:65248/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
